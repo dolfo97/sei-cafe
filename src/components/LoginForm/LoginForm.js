@@ -11,7 +11,7 @@ export default function LoginForm ({ setUser }) {
   const handleChange = (evt) => {
     setCredentials({ ...credentials, [evt.target.name]: evt.target.value })
     setError('')
-  }
+  } 
 
   const handleSubmit = async (evt) => {
     evt.preventDefault()

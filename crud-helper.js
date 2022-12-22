@@ -13,3 +13,4 @@ const Fruit = require('./models/fruit')
 // Local variables will come in handy for holding retrieved documents
 let user, item, category, order, fruit
 let users, items, categories, orders, fruits
+ 

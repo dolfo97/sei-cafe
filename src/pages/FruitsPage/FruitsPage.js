@@ -12,7 +12,7 @@ export default function FruitsPage (props) {
   const [newFruit, setNewFruit] = useState({
     name: '',
     readyToEat: false,
-    color: ''
+    color: '' 
   })
   // index
   const getFruits = async () => {

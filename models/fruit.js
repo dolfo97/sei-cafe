@@ -11,3 +11,4 @@ const fruitSchema = new Schema({
 const Fruit = model('Fruit', fruitSchema)
 
 module.exports = Fruit
+ 

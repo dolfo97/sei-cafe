@@ -11,4 +11,4 @@ export default function AuthPage(props){
             <LoginForm setUser={props.setUser}/>
         </main>
     )
-}
+} 

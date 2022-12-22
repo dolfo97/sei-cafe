@@ -8,7 +8,7 @@ export default class SignUpForm extends Component {
         email: '',
         password: '',
         confirm: '',
-        error: ''
+        error: '' 
     }
 
     handleSubmit = async (evt) => {

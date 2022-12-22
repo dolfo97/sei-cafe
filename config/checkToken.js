@@ -15,7 +15,7 @@ module.exports = (req, res, next) => {
     })
     return next()
   } else {
-    // No token was sent
+    // No token was sent 
     req.user = null
     return next()
   }

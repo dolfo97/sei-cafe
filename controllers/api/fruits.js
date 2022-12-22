@@ -12,7 +12,7 @@ const dataController = {
         res.locals.data.fruits = foundFruits
         next()
       }
-    })
+    }) 
   },
   // Destroy
   destroy (req, res, next) {

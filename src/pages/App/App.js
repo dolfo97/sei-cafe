@@ -17,7 +17,7 @@ function App() {
       setState(data)
     } catch (error) {
       console.error(error)
-    }
+    } 
   }
 
   useEffect(() => {
